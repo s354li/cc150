@@ -1,0 +1,176 @@
+Behavior Question 
+Tell us something about yourself
+
+Okay. So hi again, this is Grace. I graduated from University of Waterloo with a master degree of Engineering and a bachelor degree of Geomatics and computer science. I am an engerentic and enthusiastic professional developer with excellent communication skills. I graduated January last year, and currently working as a software engineer in OpenText served as a member in Core Team. "Core" is the project name. I am proficient with both front-end and back-end development with multiple programming languages such as the Java and C# I used during my academic studies and my first full-time job. NodeJS and AngularJS I am using in my current company as well as some related ones like Ruby I used in my internship and some small tools development. I am also good at doing the UI designs using html and css and if necessary photoshop a little bit. I like programming and always love to learn different techniques and try different languages and frameworks. Finally, I am an energetic and pasionate person and love to communicate and learn from others. I am also a fast-leaner and can work in a fast-paced environment.
+
+
+1. Amazon.com launched in 1995: most customer-centric company; smart, fast decisions, stay nimble, innovate and invent and focus on delighting customers
+2. Amazon devices and Service: Kindle (2007); Fire tablets; Amazon Fire TV Stick, Fire TV Edition; Echo and Alexa
+3. Amazon Marketplace; Amazon Web Service: cloud services platform offering compute power, database storage, content delivery
+4. Business Development: prime video, studio, music IMDB and advertising registry service 
+
+
+1. Opentext software developer
+Served as a member in the development team implementing a Saas enterprise information management application. The opentext Core is an internet-based storage platform with significant chunk of space offered very similiar with OneDrive. But the Core application is mostly focus on the enterprise customers to share and collaborate with colleagues. The workflow in the cloud are more convenient.
+As a team member in the project, I need to discuss the requirement with product manager, design the arcfortary and talk about it with the architecture, delivery high-quality codes normally using NodeJS and AngularJS, unit testing if it is the front-end development, intergration testing if it is backend and end to end testing the results, take the ownership of the changes and maintain if future problem happened. We use LEAN methodology and every developer should be involved in the requirements, planning, implementing and review parts.
+We use Agile software development principles and communicate with customers for every ticket, and deliver frequently. We have stand-up meeting everyday cooperating with developers, testers and product managers
+
+Technique parts:
+We use NodeJS as our backend framework and AngularJS as the frontend. We design our application as micro-service using docker images. We divide the features into different teams to speed up the development. Some teams using JAVA for development and we create SPI eventlistener to call our own core api.
+For the testing, we use chai and sinon ect for the unit integration testing and use the protractor for the end-to-end testing.
+For the database, we use sequelize with elastic search based on postgres which will increase the searching performance. But the data is not belonged to OpenText, so we do not really have the privilege to go into the database.
+Gitlab and Github is our version management system. We just switch to the free version of Gitlab from the Github as the budget reduction.
+
+2. Lakes Environmental Consultant Developer
+Served as a member in the development team implementing an environmental analysis application. It is a startup company, they develop the environmental software for air dispersion modelling, emissions management, complicance assurance, risk assessment, emergency release, freeware and so on. We have research team based on university for developing the model, developemnt team for the software development and sales team for marketing and selling the product.
+It is the customer-based application. We sold it to Brazil, America and ect. As a member in development team. We communicated to the customers a lot and changed and improved our product based on their requirements. We took fully ownership of the product and communicate to the research team to understand the model and implement the algorithm.
+
+Technique parts:
+We used C# as our backend programming languages and Bootstrap for the frontend design. A lot of pure html, css and JQuery even the photoshop were needed during daily work. 
+We also used Ruby for developing the daily tools to do the data processing, and file and ticket mangement.
+
+3. Brisksynergies Software engineer:
+Served as the only developer in a startup traffic analysis company developing the traffic analysis application. There are two projects I developed during my master studies. The first one is related to my master thesis. We had volunteered geographic information from cyclists in the City of Toronto. We want to simulate the cyclists' route choice from a specific pair of origin and destination. So I did the data progressing to map matching the GPS points with the road network, and then calculated the parameters that may affect the route choice such as energy cost, distance, slope ect. We use linear regression and mutiple route choice as the model to estimate cyclists' route choice. In the end, I developed a one-page website representing the results including showing the map and the network. Filtering the route one cyclist took. Filtering the network based on the volume in a specific period of time. Finally, forecase the route choice once the user input their scenario parameters.
+
+The other project I involved in is an intersection analysis application. It is a project cooperated with miovision another start up company. They have the video in every intersection in Detroite. Our company have an algorithm to classify the auto, cycle and pedestration. Then I developed a map-based website to show the volume in every intersection and generate charts based on users' selection.
+
+Technique parts:
+The database I used for data processing is postgresql, which can store geographic data. I implemented the map-matching algorithm created by one of my colleagues, who is a professor in Montreal university. I also develop the shortest path algorithm to calculate the alternative routes. The webpage was developed by Ruby on rails and html, css and pure javascript and jquery. I did not use any framework as those are small application. I know that would be hard to expand later but at that time those two applications have very tight schedules and I have to speed up.
+
+4. YueXiang software internship:
+Served as one of the members in the development team involved in a tourism information system development for the city. The website contains both the user end and admin end. Admin end can do the information management such as uploading the file, writing the articles and so on. The user end can only view the information and leave comments and reviews. As an intern in the company, I involved in all the development, delivery C# codes, writing tests and manually tests as well as deployment on their server. I interned their for two terms and really practise the webpage design and UI implementation their.
+
+Technique parts:
+The database is MSSQL and the project was developed by C# in .net framework. It is quite as normal as I learnt in the academic. Most of the work is realted to the business logic and customers' requirement. I picked up the webpage design and UI implementation a lot during this time. I was also responsible for the UI design in the company as the designers cannot write the html and css codes. I could always work in the fast-paced environment and multitasking with right quality codes and timely fashion.
+
+5. Web-based integrated tourism platform:
+Yeah, this is a long-time ago project I did in the academic course. This course is related to the web GIS, which means that we put the geographic information system onto the website. I created a web-based tourism planning platform to help the client to plan their camping locations. I first gathered the requirements from multiple friends who love camping and gather the geographic information of the campsites in a national park region. I used ArcGIS API to perfrom campsite searching, route planning and related attractive recommendation function.
+
+
+(Situation, Task, Action, Result)
+Tell me about a time when you were faced with a problem that had a number of possible solutions. What was the problem and how did you determine the course of action? What was the outcome of that choice?
+
+I had met a situation that I have a ticket need to be in the release. But that ticket needs some information from my coworkers and my product manager. But during that time the product manager was on vacation and I could not know the requirements from the customer. I do have the customer contact information, but it is not professional to contact them by ourselves. In order to meet the deployment, there are several options I could chose from. First one is ignoring the ticket due to the absense of the product manager. Second one is reporting to the manager and let him answer my question and make up a temporary solution. Or I could contact the customer myself and come up with the answer. I know that contacting the customer by ourselves is not that professional but we have to deliver correct high quality code and meet the customers' requirements and deadline as well. This should be better than just igorning the ticket or make up a temporary solution to lose the trust from the customers. In the end, I contacted the customer myself and ask for the answers. But I wrote a letter says that this is an exceptional situation as the product manager was on vacation and the customer is understandable.
+
+
+When did you take a risk, make a mistake, or fail? How did you respond, and how did you grow from that experience?
+
+Early in my career, I forgot to run the whole suite of API tests after making changes. I noticed that my changes may affect the API tests but as running the whole suite of API tests cost me a long time, and I want to finish more tickets in the sprint. So I tried to speed up and ignoring the principle of deliverying the high quality. Absolute my merge request ruin the entire codes. All the developer are wasting the time finding where is the problem. After this thing, I understand that high quality is more important than speed. I have to make sure that I finish my ticket correctly before moving to the next one. I will never sarcifies the long-term values due to the short-term benefits. Now I am careful about my codes and responsible for my codes. Try to deliver the highest quality of code in every fix.
+
+Describe a time you took the lead on a project.
+
+When I was in the Brisksyner, I took leads of two project. At that time, I was the first developer in the company, after me there is another student joining in. We had a cooperation with Miovision, so I have to handle the whole peoject from the customer requirements, design, management and planning, develope and maintainance. I first meet with the customer to gather the requirements every week, and then have a meeting with the architecture and the other developer to design the architecture as well as set the timeline. We made the proposal to the CEO and start the development. We meet everyday to chat about the progress and finish the first version on time. After the first version, I met with the customer every two weeks and gather their further requirements. I set up the jira ticket to trace our work and use git for the version control so that me and the other developer can do the job at the same time.
+
+What did you do when you needed to motivate a group of individuals or promote collaboration on a particular project?
+
+I had a met a time that our team is working on a key feature in the current workplace before a big release. I am responsible for the project and I did want to delivery high quality produce on time. I talked to my colleagues one by one and ask them about their thought and their recent plan and let them know that our aim. They supported me a lot. I also keep an eye on the progress everyday and compliant my colleagues often when they made progress. Finally, as we work hard together as a team, we deliver the produce on time before the deployment.
+
+How have you leveraged data to develop a strategy?
+
+I could not say it is a strategy but it is a decision making. There was once we have to meet a deployment deadline. But we could not finish all the tickets in the sprint. As a scrum master, I have to decide which ticket should go into the deployment. We leverage the number of clients using the features to decide which ticket should go into the deployment. Finally, we successfully deliver nearly half of the tickets and most of the customers are satisfied to see the changes related to the features they care about and using daily.
+
+Give an example of goal you reached and tell me how you achieved it
+
+During my master studies, I wanted to publish a paper in the international conferences, and do a presentation on the conference. After deciding the topic of my research. I talked to my superisor and read multiple conference paper to focus on pick one or two finding from my whole research studies. I read a lot of papers and followed the structure to wrote a paper, and asked one of the native speaker in my field to help to edit it. I also made a website to demo my result and put it into my presentation. Finally, I really got the publication and presentation. I still remembered I was so nervous 
+
+
+Why amazon and why leave opentext:
+
+The first thing I want to share is that opentext is a good company. The coworkers and managers are nice. But although Opentext is a software company, it is in a slow step. Our daily work is too regular and slow. I am a person always want more challenges. So I want to enter amazon which is a fast paced and challenging company. Second, I want to work with better people. Although I am not that senior in software development field, but I am quite sure I am a curious and fast learner. I am also a hard-working person. Amazon is full of good developers and good manager. I want to learn from them. That must a milestone in my career. Finally, to be honest, it is amazon, that is every developer's dream. No one will refuse an offer from Amazon. It has better products, better reputation, better techniques, better pay. It proves that you deserve better and you are good, that is what I really want and always chasing for. That is my whole life goal in this field. To be honest, before the interview, I am really nervous. You will get more nervous when you are closer to your dream. That is why I want to be in Amazon. This a very valuable opportunity for me, and I really cares it a lot.
+
+Final is used to apply restrictions on class, method and variable. Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
+Finally is used to place important code, it will be executed whether exception is handled or not.
+Finalize is used to perform clean up processing just before object is garbage collected.
+
+Interface can have only abstract methods. Abstract class can have abstract and non-abstract methods. From Java 8, it can have default and static methods also.
+Variables declared in a Java interface are by default final and can have static variables. An abstract class may contain non-final variables.
+A Java interface can be implemented using keyword 'implements' and abstract class can be extended using keyword 'extends'.
+An interface can extend another Java interface only, an abstract class can extend another Java class and implement multiple Java interfaces.
+Members of a Java interface are public by default. A Java abstract class can have class members like private, protected, etc.
+
+OOP uses objects as its fundamental building blocks. Each object is an instance of some class. Classes allow the mechanism of data abstraction for creating new data types. Inheritance allows building of new classes from existing classes. Object-oriented programming is a programming methodology that associates data structures with a set of operators which act upon it.
+Objects; Encapsulation; Abstraction; Inheritance; Polymorphism
+Polymorphism is the occurrence of something in various forms. Java supports various forms of polymorphism like polymorphic reference variables, polymorphic method, polymorphic return types and polymorphic argument types.
+
+
+Leadership principles:
+1. customer obsession: ask requirements; functions based on customers' requests; earn customers' trust; care competitors but more customers
+
+Situation - I had met a situation that I have a ticket need to be in the release. But that ticket needs some information from my coworkers and my product manager. But during that time the product manager was on vacation and I could not know the requirements from the customer. I do have the customer contact information, but it is not professional to contact them by ourselves.
+Task - I want to finish the task to meet the customers' requirements before the deployment
+Action - I talked to the manager and contacted the customer with permission to collaborate with customers to fix the problem.
+Result - I successfully meet the deployment and meet the customers' requirement and earn the trust
+
+Situation - When I worked during my internship in Brisksynergies, I was asked to develop a traffic analysis application to show the traffic parameters on the map. The customer is another startup company.
+Task - I want to develop a successfully application
+Action - I ask the customer company to have one PM as represent to send me the requirements and improvements every two weeks before We had meetings. I went to their company to talk the requirements with them and then developed based on customers' requirement.
+Result - We collborate for a long time, and the customers are satisfied with our product.
+
+Situation - In one of the course in my academic studies, we want to develop a camping planning website based on geographic information. But actually I am a developer, but I am not a camping person.
+Task - I need to develop a real case application for camping
+Action - I did a survey asking 50 people who likes camping and ask their requirements and what they want to know from the website.
+Result - I got high score in that course, and there is a company contacting us want to buy the application because they think the functionalities are really useful. But due to the academic integrity, I did not really sell it.
+
+
+There is a situation happened during the release-18.4.1 in my current position. We had a feature called viewer which can enable users to preview the file online. I received a complain from the client saying that when they still seeing the previous opened file when they click the file link in the email. It made me think there must be some problems in the localStorage so the viewer still lead them to the old cache. But QAs cannot really reproduce that in the local development environment. I changed couple of the codes and send to the QAs. The QAs cannot reproduce it so they want to ignore the complains as there was only one customer complaining about it in a special case. But I think we should keep customers' requirements and opinion seriously. So I contacted the product manager and the customer representative to reproduce the problem and find the solution. Ask them to test my solution. Finally we solved this problem. Although that took some longer time and involved many people, the customer was happy about that. We earned their trust and meet their requirements. I think I always need to pay attention to every customers' requirement and check the quality of our codes
+
+2. ownership: long-term values more than the short-term benefits; think the whole project and the entire company
+
+Situation - I am in a thesis based master program. I have to finish a whole research project and do a publication so that I could graduate.
+Task - I want to graduate with a publication and a mature application
+Action - My research is doing the route choice analysis for the cyclists in Toronto. I first gather the information, which are volunteer geographic information. I talked to my supervisor and start creating an application in ruby on rails to show the road network, the user selected route, and do a simulate of the future route choice.
+Result - At the end of the project, my supervisor introduced my application to MTO and the city of Toronto. They are interested in my application. My supervisor hired a coop student to help me develop and improve my application. It is a success in my master studies.
+
+Situation - I found a problem in my current project. As we are using javascript, we use json objects to send data. However, sometimes in different pages our project may sent different format even they are the same object. That is not good for the long term development as we have to check different cases. 
+Task - When I did a development in the viewer part. I found this problems. I found the keys are differents in different routes. I could check different parameters in the viewer controller. But I think that is not good for the long-term development.
+Action - So in the end, after talking to the archecture, I decided to change the object to the same format for different pages and created a schema to check the format. 
+Result - I suppose long-term values are more important than short-term benefits. I found that based on my changes it is easier to extend in the future.
+
+3. invent and simple: encourage innovation and find ways to make things simple; not care who invents that
+
+There was one time I received the task for avoiding CSRF (Cross-Site Request Forgery). I first do not know how to do that and not quite sure which options is more suitable for our project. I want to make the things simple and not breaking other parts. I did some research there was one option that I could verify the hostname in the Referer header matches the target origin or I could store the token in the database which needs the server site efforts to check whether it is the original website. But that seems a little bit complicated and needs the database changes for the settings. My colleagues did similiar things before and he proposed the idea of double submit token combining both jwt authentication token and CSRF token and store the token in the cookie and to check whether it is matched with the localStorage token. In that way, I did not need to change the database design and no need to worry when it is expired. As both of methods can preventing the CSRF problem, but my colleague's solution is easy to implement and can make the things simple. In the end, my colleague successfully persuade me, I took his solution which is simple and efficient. I think I need to focus on making things invent and simple, I am open to any solutions no matter who invent it. I could also learn from them and get more experience. 
+
+4. are right a lot: always make correct decision and seek diverse perspectives
+
+I once received a task related to change the viewer. The main problem is due to the localStorage already have the file that opened in previous. So when we open a new file, there is some cases that the previous file show up. I successfully solved the problem, and sent to the QAs. Although QAs found that my changes successfully solve the problem, they found some other problems such as the viewer does not show the correct version and draft of the file in version history and activity pages. This is because in localStorage I checked whether I have the matched fileId, but I did not check the correct version id and draft id. So I reopened the ticket even it is not where exactly the problem is and check whether the correct version and draft is sent into the localStorage. I thought I solve the problem. But when I do the testing, I found the version Id sent to the localStorage is still not the previous one, it is the current version and also version history and activity pages behave differently. So I looked details of the codes in both pages, and found that the json sent from both page are not the same. That is also the drawback of the json object as we do not really check the format not like a specific class in OO programming. Finally, I re-format the object in both pages and create a json schema to check the format before the viewer is initialized. Although this problem was sent back and force, I insisted that I should make correct decision and always care different parts in diverse perspectives.
+
+5. learn and be curious: never done learning and curious about new opportunity to explore
+
+This is most important principle I alwasy keep in mind. I like to learn from others and I am quite sure that I am a fast learner. My company have some tutorials in different fields, I alwasy find time to attend those. I also find that I lack some system practise of algorithm and data structure. So I planned to enroll into some part time program to further improve myself later if I have time. I always keep improving and curious about every techniques. I did some side projects for my friends using different programming languages. I never stop learning and finding new opportunity to explore. That is also why I am here. I love Amazon, I believe Amazon can give me more opportunity to learn and explore.
+
+6. hire and develop the best: recognize exceptional talent; develop leaders and coaching them
+
+In my current company, I have the chance to interview coops. I want to pick the best students and give chance to good ones. So I prepared some algorithm questions and asked details about their projects they said they did. But because I also been interviewed before and currently still being interviewed, so I totally understand that they could not answer questions correctly as everyone have their different exceptional talents. I once met a student they are not that good solving the algorithm questions, but he had very good leadership and nice personality. So I still pick him, and during his coop term. I asked what he want to got from the coop term and he said he want to develop the leadership. So I talked to my manager and let him tried some scrum master work during the coop term. Everyone is different, I respect and recognize different exceptional talent, and always learn from others and like to give what I am good at to them.
+
+7. insist on highest standard: unreasonable high standards high quality products service and processes
+
+I graduated from UW master program in Engineering. As you know, UW engineering is hard. When I first in that program, my goal is successfully graduating and getting my master degree. So I studied very hard to get high score in my grade and do my research and write thesis. After I got high scores in my courses. I have higher standards for myself. I wanted a publication. I told my supervisor about that, and he helped me a lot. I summarized my thesis, keep my results of the research and submit to the trb. Fianally, I got succeed,and publish my results. I then increase my standard presenting in the conference. I prepared and practice my presentation hundreds of times. I think I did a great job in the presentation and reach my goal. I keep increasing my standard of myself like mater graduation, going into software company, and now applying Amazon. Although sometimes I could not reach my goal, but that is my motivation to improve myself and I will never give up and keep working hard to delivery high quality results.
+
+8. think big: think different and communicate and create correct direction to satisfied customers
+
+
+
+9. bias for action: speed matters; make decision and take risk
+
+When I was in the master study, my team has cooperations with MTO. My supervisor want to develop an easy static application for MTO to check hotspot. He wants me to use Tableau to develop, which is a data visulization software. My supervisor is very familiar with that, so he think that is the best way to do that. But actually I was not familiar with that and learning that and then develop with that may cost me more time. I still need to accomplish my thesis and commit my part-time job at the same time. So I decided to use ruby to develop that. The risk is that my supervisor may not be able to change that. But that is the fast solution at that time, and after that I trained one of my team members to know how to change ruby code, and project delivered on time.
+
+10. frugality: accomplish more with less; self-sufficiency
+
+When I was in the internship in one of the start up company. We do not have a lot of budget, and I am the only developers in the company. At that time, we had a project cooperating with another company, which is a good opportunity. It is a big project, but we do not have enough employees to finish. I think it is a good opportunity for our company. So I have to accomplish more time in my parttime work and handle both coding, testing, project managing and server setup. I self-sufficient myself and make a big step for this project. I self-sufficient for around a year and accomplish a lot into this job. After that, we got some new employees and this project going really well.
+
+11. earn trust: listen attentively, speak candidly, treat others respectfully; self-critial; benchmark themself with other team
+
+In my company, we have different levels of developers. I met some problem in my development in the notification. I could not find the correct path of the problem. One of our coop students did similiar problems in other terms. We communicated, discussed a lot. I learned from him and I changed my idea about the ticket. I think I still have something I could learn from him, from everyone.
+
+12. dive deep: operate in all level and details
+
+In my intership in the startup company. I developed the project first, and after a year, we had a new developer. I trained him, and tell him how the project is and how the code is. After he understand it, I let him do the development. But I have to know what is the code be and how he changed that. Because I was responsible for that project, so I need to involved in all levels and details. After he left, then a new developer join in, and I could also give the new employee a whole idea of that project. As a temperatory leader, I should operate in all level and details.
+
+13. have backbone, disagree and commit: challenge decision and conviction and tenacious; commit wholly for decision
+
+Actually, my bachelor is not in computer science, so when I decided to enter the software development field, my parents are not agree with that and not understand. They think that is too risky to change a field at that time. But I disagree with their idea and I think I love this field and this field may have better furture. So I convice them and keep my idea to change my career. They finally agree with that and let me try. I enrolled with another major in computer science and entered a program to study computer science systematically. In those four month, I started my course at 9 am and ended at 5 pm. When I got home, I did the programming until 2 to 3 am next day. That is a hard time, but I think that is really meanfully. I commit wholly for my decision and got successful in the end.
+
+14. deliver results: key inputs, right quality and timely fashion
+
+In my current position, we did Saas application and agile. Servered as a team member, I took tickets, deliver high quality codes. Sometimes my manager may give urgents tickets just before the release. I managed the time I will take that ticket and deliver high quality codes to meet the release time. I did meet the situation that sometimes the ticket is very complex and cannot meet the release on time. In that time, I talked to my manager and let him know about it and communication with customer to make a release again. I first worked a startup company, we do not have very strict rules about that. I think I was luck to work in my current position, which is a big company. I learnt a lot for deliverying the high quality codes and meet the timeline fashionly.
+
