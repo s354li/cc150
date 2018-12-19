@@ -45,7 +45,7 @@ public class ThreeSum {
 			return result;
 		}
 		int first = 0;
-		while (first < nums.length - 3 && nums[first] <= target) {
+		while (first < nums.length - 3) {
 			int firstEle = nums[first];
 			List<List<Integer>> threeSumResult = getThreeSum(Arrays.copyOfRange(nums, first + 1, nums.length), target - firstEle);
 			for(List<Integer> item:threeSumResult) {
@@ -65,7 +65,7 @@ public class ThreeSum {
 			return result;
 		}
 		int first = 0;
-		while (first < nums.length - 2 && nums[first] <= target) {
+		while (first < nums.length - 2) {
 			int firstEle = nums[first];
 			List<List<Integer>> twoSumResult = getTwoSum(Arrays.copyOfRange(nums, first + 1, nums.length), target - firstEle);
 			for(List<Integer> item:twoSumResult) {
@@ -114,11 +114,89 @@ public class ThreeSum {
 		}
 		return result;
 	}
+	public static List<Integer> getTwoSumClosest(int[] nums, int target) {
+		List<Integer> result = new ArrayList<Integer>();
+		if (nums == null || nums.length < 2) {
+			return result;
+		}
+		int left = 0;
+		int right = nums.length - 1;
+		int closestValue = Integer.MAX_VALUE;
+		while (left < right) {
+			if (Math.abs(nums[left] + nums[right] - target) < closestValue) {
+				closestValue = Math.abs(nums[left] + nums[right]);
+				result.clear();
+				result.add(nums[left]);
+				result.add(nums[right]);
+			}
+			if (nums[left] + nums[right] == target) {
+				return result;
+			} else if (nums[left] + nums[right] < target) {
+				left++;
+			} else {
+				right--;
+			}
+		}
+		return result;
+	}
 	public static List<Integer> getThreeSumClosest(int[] nums, int target) {
-		
+		List<Integer> result = new ArrayList<Integer>();
+		if (nums == null || nums.length < 3) {
+			return result;
+		}
+		int first = 0;
+		int closestValue = Integer.MAX_VALUE;
+		while (first < nums.length - 2) {
+			int firstEle = nums[first];
+			List<Integer> twoSumResult = getTwoSumClosest(Arrays.copyOfRange(nums, first + 1, nums.length), target - firstEle);
+			int twoTotal = 0;
+			for(int item:twoSumResult) {
+				twoTotal += item;
+			}
+			if(Math.abs(twoTotal + firstEle - target) < closestValue) {
+				closestValue = Math.abs(twoTotal + firstEle - target);
+				result.clear();
+				result.addAll(twoSumResult);
+				result.add(firstEle);
+			}
+			first++;
+		}
+		return result;
+	}
+	public static List<Integer> getThreeSumClosestSec(int[] nums, int target) {
+		List<Integer> result = new ArrayList<Integer>();
+		if (nums == null || nums.length < 3) {
+			return result;
+		}
+		int closestValue = nums[0] + nums[1] + nums[2];
+		result.add(nums[0]);
+		result.add(nums[1]);
+		result.add(nums[2]);
+		for (int i = 0; i < nums.length - 2; i++) {
+			int left = i + 1;
+			int right = nums.length - 1;
+			while (left < right) {
+				int totalCurrent = nums[i] + nums[left] + nums[right];
+				if (Math.abs(totalCurrent - target) < Math.abs(closestValue - target)) {
+					result.clear();
+					result.add(nums[i]);
+					result.add(nums[left]);
+					result.add(nums[right]);
+					closestValue = totalCurrent;
+				}
+				if (totalCurrent == target) {
+					return result;
+				} else if (totalCurrent < target) {
+					left++;
+				} else {
+					right--;
+				}
+			}
+		}
+		return result;
 	}
 	public static void main(String[] args) {
-		int[] test_case = new int[] {0,1,1};
+		int[] test_case = new int[] {1,1,1,0};
 		Arrays.sort(test_case);
 		List<List<Integer>> two_sum_result = getThreeSum(test_case, 0);
 		for(List<Integer> item:two_sum_result) {
@@ -127,5 +205,10 @@ public class ThreeSum {
 			}
 			System.out.println();
 		}
+		List<Integer> two_sum_cloest = getThreeSumClosestSec(test_case, 0);
+		for(int item:two_sum_cloest) {
+			System.out.print(item + " ");
+		}
+		System.out.println();
 	}
 }
