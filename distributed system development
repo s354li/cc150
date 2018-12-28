@@ -1,0 +1,10 @@
+1. 分拆：系统分拆 - micro-service; 子系统分拆 - module; 计算分拆 - multi-thread; 存储分拆 - slaves and multiple databases
+2. 并发：multi-processes and multi-threads
+3. 缓存：cache, localStorage
+4. 在线计算/离线计算; 同步/异步：teds with job queue/zookeeper and kafaka; async and sync
+5. 全量/增量：database insert into small table and merge after a while later
+6. Push/Pull：notification push/ask status notification each time
+7. 批量：kafaka job queue and notification
+8. 重写轻读/重读轻写: 空间换时间/时间换空间; database - easy write and hard read; feeds - easy read but hard write
+9. 读写分离：write in the databse but read in the ealsticsearch. sync during the business process
+10. 
