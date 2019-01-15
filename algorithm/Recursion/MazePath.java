@@ -28,7 +28,6 @@ public class MazePath {
 		return maze;
 	}
 	public static void PrintMaze(Point[][] maze) {
-		System.out.println("aaaaaaaaaaaa");
 		for(int i = 0; i < maze.length; i++) {
 			for(int j = 0; j < maze[i].length; j++) {
 				System.out.print(maze[i][j].isRoute ? "x" : "o");
