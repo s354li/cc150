@@ -1,0 +1,16 @@
+1. class: encapsulation of properties and methods; object: instance of class
+2. partial class; sealed class: cannot be inherited; abstract class: cannot be instantiated only be inherited; static class: cannot be instantiated and inheritated
+3. struct cannot be inherited; struct passed by value and class passed by reference; struct cannot use garage collector
+4. compile time polymorphism; runtime polymorphism
+5. boxing: change value to reference; unboxing: change reference to value
+6. finalize methods is used for garbage collection and clean up
+7. delegate: a variable that holds the reference to a method, function pointer;
+   public delegate void AddNumbers(int n)
+   delegate are used to declare Events multicast delegate
+   publisher and subscribers
+8. value type store in the stack and reference type store in the heap
+9. custom control compiled code dll; user controls ascx
+10. object pool reduces the overhead of creating and re-creating objects
+11. sealed methods cannot overridden; sealed class cannot be inheritance
+12. indexers are smart arrays allow the instances of a class to be indexed as array
+13. attributes and property
