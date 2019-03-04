@@ -1,0 +1,9 @@
+1. rename, update-timezone are all updating the users. Those two api routes are not necessary and should be combined to update by sending data to the POST methods.
+   We sometimes want to keep the privacy of the user id. In the delete methods, we can send it in the data instead of the url.
+2. The second method makes more sense to me: The time complexities of the first one is O(n^2) while the seond one is O(n^2/4) although the second one need an extra space for sum array. I think we could scarfize the space to time. Performance and speed is more important. The second one is also more easier to debug and have less chance to make error. We could debug the sum array to check steps.
+3. 
+4. As the method is called getDepositHistorySum, we could send the deposits as input instead of using a const to hold the information; Could use forEach or map in javascript for looping instead of for loop to reduce the complexity of the coding.
+5.
+6. Use conditional operator instead of the if else to reduce the complexity of coding.
+7. The most common way to increaase query performance is adding indexes. However, nothing is free, index is also stored in the database and if the database size is too large, the size of the index is also very large. Horizontal solution for database scaliability is add more resource to the DB server like CPU, memory. Vertical solution for databse scaliability can be adding more machineby data replication or federated DB. The data replication means we have one primary copy and multiple replication read copy which will increase the performance for reading data like master and slaves. We read from slaves and write from master. Federated DB means we can add more machines to scale the DB like sharding with cassandra.
+8. 

@@ -12,6 +12,72 @@ At this time, I met my supervisor. He graduated from both CS and transportation 
 When I know this, I talk to him and decided to do a master degree with him. The thesis-based master is mostly depends on your supervisor. My supervisor knows that I am interested in computer science and want to be in the software engineering field after graduation. So him asked me to help him to do the application development parts, and all my thesis about is using machine learning and software development, data modeling to understand human behavior in route choice. During this time, I got a lot of experience in software development. I also helped a start up company to develop software applications based on my thesis results. I feel myself very luck to meet my supervisor and finally entered in the software field which is my interests.
 I am a very engerentic and enthusiastic person. I really love programming. Even the busiest time of my master graduation, I never gave up programming. I forced myself watch some video or do some algorithm questions everyday. I am currently working as a software engineer in OpenText served as a member in Core Team. I am proficient with both front-end and back-end development. I even learnt how do use the photoshop to do the UX work when I am not that busy. I always love to try and learn different programming languages, frameworks and technologies. I am currently using NodeJS and AngularJS, but I also used JAVA, C# as well as ruby on rails, which shopify uses before. But I found that if I am not using a languages for a long time, I may forgot it a little bit. Although it is not that hard to pick it up again, I am trying to force myself to use all the languages I know to solve questions as practice. I enjoy the process of programming, it made me feel proud and productive. Finally, I am a efficient and hard working person and can work both individually and in a team.
 
+Technical Life Story:
+- Why postgresql, ruby on rails and javascript
+Open source DBMS, can support geographic data with diversed extension functions like PostGIS, DBLink, SQL functions called store procedure can be developed separately.
+The main reason of using ruby on rails is because it is open source and fast developed. The project is supported by a start-up company, so they want to shorten the life-cycle and decrease the budget.
+Front-end friendly ruby on rails; many open-source modules including geographic information. Shortages: speed and performance; as I was pretty new in this field, I may make some mistake and debug is a little time-costing.
+- Why Lakes Environmental Consultant Inc.
+The company is founded by a professor in UW, who is a friend of my supervisor. When I graduated, they contacted me directly and would like to give me an offer. I also thought it is somewhat related to my master field Civil Engineering. But after I joined in, I am a little disappointed about the management of the company. It is a family based company, so the manager has the highest decision about how to distribute the tickets and tasks. He only asked the familiar developers to do interesting tasks. Although I have already volunteered myself, he still prefer the previous employee. I feel not contributed enough in the company, so I decided to move on.
+- Why C# and BootStrap
+The company is long-time ago, although the size is still small. So at that time C# is a pretty popular programming languages since its speed and performance are pretty good. .net framework helps developers a lot. Microsoft benefits a lot from C#. After years, even other programming languages become better, it is not necessary for them to change. I was once involved into a project transfering the front-end into the bootstrap and rewrite the back-end. In previous, I think due to the time and budget issue, they do not have front-end design and framework. They decided to use bootstrap for fast developing design as they do not have designer.
+- Why OT
+The first thing I would like to share is that OT is a pretty good company. It is a typical software company with latest technologies. All managers and co-workers are pretty hard-working. But the step of the company is pretty slow, as a mature company, it does not really care about the employees that much. We did not get enough support from the company. It is not an easy decision to move on as OT is good and it is already my second job. I am definitely not a person always want to move from company to company. I really want to stick with a company and contribute myself to it. However, I think I am still young and looking for challenges, which OT cannot give me. All the employees in OT is like more than 40 years old with a settle down familiy. I could understand that why the company is so slow step. So I started looking for an active, passionate and challenging company. To be honest, I also looked for some other companies, but after talking to Alexa, Mike and Jeremy, and even today, Shopify is my most interested company, which I think it is active, passionate and enthusiastic. It is the company I have kept looking for. If I could have the honour to join here, I would like to stick with Shopify as long as I could. I like the environment here, and I like all the people I talked since the first time, and I suppose Shopify can also offer pretty good pay and benefits. Yeah, I would be very appreciate if I have the chance to work here. 
+- Why microservice
+Software built as microservices can be broken down into multiple component services, so that each of these services can be deployed and then redeployed independently without compromising the integrity of an application. That means that microservice architecture gives developers the freedom to independently develop and deploy services.
+Better fault isolation; if one microservice fails, the others will continue to work.
+Code for different services can be written in different languages.
+Easy integration and automatic deployment; using open-source continuous integration tools such as Jenkins, etc.
+The microservice architecture enables continuous delivery.
+Easy to understand since they represent a small piece of functionality, and easy to modify for developers, thus they can help a new team member become productive quickly.
+The code is organized around business capabilities.
+Scalability and reusability, as well as efficiency. Easy to scale and integrate with third-party services.
+Components can be spread across multiple servers or even multiple data centers.
+Work very well with containers, such as Docker.
+Complement cloud activities.
+Microservices simplify security monitoring because the various parts of an app are isolated. A security problem could happen in one section without affecting other areas of the project.
+Increase the autonomy of individual development teams within an organization, as ideas can be implemented and deployed without having to coordinate with a wider IT delivery function.
+
+Distributed system design is not that easy and scaliability need to be rebuilt. The communication is hard as their are so many teams. Deployment are complicated to keep all the things work
+- Why NodeJS and AngularJS
+Easy to install and execute locally
+Multiple-platform compatible written code
+Rapid minimum viable product (MVP) delivery
+Fast and comprises of speedy native bindings
+High performance
+Tight coupling between client and server
+Compatible with open source packages and modules
+Cheap hosting
+Cloud scalability
+Node.js lightweight services
+
+Drawbacks
+Single-threaded makes it harder to take advantage of multiple cores/processors
+Asynchronous nature makes it difficult for beginners to understand
+Easy to impact performance without noticing as a beginner
+Npm being so big lacks quality packages in some aspects
+Production profiling/monitoring
+Project structure, difficult for new developers to know what the "right way" is
+Setting up a Node server requires more troubleshooting
+Difficulty in learning curve for developers not familair with JavaScript
+CPU intensive tasks slow down the process a lot
+Choosing a framework can be difficult
+Exception handling is difficult
+
+
+No need to use observable functions; Angular analyses the page DOM and builds the bindings based on the Angular-specific element attributes. That requires less writing, the code is cleaner, easier to understand and less error prone.
+Angular modifies the page DOM directly instead of adding inner HTML code. That is faster.
+Data binding occurs not on each control or value change (no change listeners) but at particular points of the JavaScript code execution. That dramatically improves performance as a single bulk Model/View update replaces hundreds of cascading data change events.
+Quite a number of different ways to do the same things, thus accommodating to particular development styles and tasks.
+Extended features such as dependency injection, routing, animations, view orchestration, and more.
+Supported by IntelliJ IDEA and Visual Studio .NET IDEs.
+Supported by Google and a great development community.
+
+Drawbacks
+Angular is big and complicated. With multiple ways to do the same thing it is hard to tell which way is better for particular task. Mastering Angular over the “Hello world” level requires considerable efforts. Different developers’ coding styles and habits might complicate integration of different components into a whole solution.
+The lifecycle of Angular application is complex, and to master it you really need to read the code. Compile and link are not intuitive, and specific cases can be confusing (recursion in compile, collisions between directives etc.).
+As the project grows with time, you most likely will need to throw away existing implementations and create new versions using different approaches. Angular implementations scale poorly.
+More than 2000 watchers can severely lag the UI. That limits the complexity of your Angular forms, especially big data grids and lists.
 
 
 1. Amazon.com launched in 1995: most customer-centric company; smart, fast decisions, stay nimble, innovate and invent and focus on delighting customers
