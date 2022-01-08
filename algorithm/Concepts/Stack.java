@@ -5,6 +5,16 @@ Integer result = (Integer) stack.pop();  //remove and return the top of the stac
 Integer result = (Integer) stack.peek();  // return the top of the stack not remove it
 boolean result = stack.empty();   // check whether the stack is empty
 int position = stack.search(34);  // return the zero-based position of the elemnt
+int pos = (Integer) list.search(element);  // search the item in the stack and return the position
+boolean empty = list.empty();  // check whether the stack is empty or not
+list.clear();  // clear out the stack
+list.clone();  // clone the stack
+boolean exist = list.contains(3);  // check whether the stack contains the item
+boolean exist = list.containsAll(Collections.new());   // check whether the stack contains a list of items
+list.remove(3);  // remove item from the stack
+list.removeAll(Collections.new());  // remove a list of items from the stack
+int size = list.size();  // get the size
+int[] result = list.toArray();  // return an array containing all the items in the stack
 
 // Queue collections java
 Queue<Integer> q = new LinkedList<Integer>();
@@ -13,6 +23,10 @@ queueB.add(45);  queueB.offer(45);
 queueB.remove();  queueB.poll();   //return and remove the head of the queue or null if empty
 queueB.element();   // return the head of the queue but not remove it return error if empty
 queueB.peek();   //return the head of the queue but not remove it return null if empty
+
+q.size();   // return the size of the queue
+q.clear();   // clear the queue
+q.contains(3);   // check if queue contains element
 
 
 class StudentComparator implements Comparator<Student>{ 

@@ -5,6 +5,8 @@ arr.clone();
 Arrays.asList(arr); // convert an array to list
 new ArrayList<>(Arrays.asList(arr)); // convert an array to arraylist
 Arrays.binarySearch(arr, 4);  // binary search array to find element
+// Searching: Time comp: O(1) - O(logN)
+// Sorting: Time comp: O(nlogn)
 Arrays.binarySearch(arr, 1, 3, 4);  // binary search array to find element from index 1 to index 3
 Arrays.compare(arr, arr1);  // compare two arrays by value; 1 no equal 0 equal
 Arrays.toString(Arrays.copyOf(arr, 10));  // copy of array and take the size of 10, use 0 to fill the rest of the position

@@ -1,4 +1,6 @@
 // LinkedList concept: Zero based index; ArrayList is similiar with LinkedList
+// Time Comp: https://www.bigocheatsheet.com/
+// add/remove O(1) search O(n)
 LinkedList<String> iniLinkedList = new LinkedList<String>();
 iniLinkedList.add("Grace");
 iniLinkedList.add(2, "Grace");
